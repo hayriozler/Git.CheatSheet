@@ -24,4 +24,7 @@ First of all, we have to understand what does git mean and why do we need it?
 - Git is used to tracking changes in your documents. It is also enabling multiple people to work on the same documents simultaneously. That will give you work more efficient way to manage your documents.
 - Git also provides a branching system; The branching system is used to keep your changes isolated from the main branch. It will keep you on the safe side until you merge your branch, the main branch will remain stable.
 
-## I would like to give more information about git. To understand git properly we have to know how git works behind the scenes.
+## Let's get started with details of how git works under the hood
+
+- [Install git for windows]([https://](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
+- [Git Cheat Sheet](https://)
