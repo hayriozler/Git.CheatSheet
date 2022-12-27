@@ -26,5 +26,6 @@ First of all, we have to understand what does git mean and why do we need it?
 
 ## Let's get started with details of how git works under the hood
 
-- [Install git for windows]([https://](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
-- [Git Cheat Sheet](https://)
+- [Install git for windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Git Cheat Sheet](https://github.com/hayriozler/Git.CheatSheet/blob/master/CheatSheet.md)
+  
