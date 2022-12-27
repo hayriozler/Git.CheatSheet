@@ -1,10 +1,10 @@
 # GIT version control system
 
-I would like to give some information about git and how to use it as a DBA
+I would like to give some information about git and how to use it as a DBA. This document covers the basics of git architecture and usage
 
 ## Do we need a source control as a DBA?
 
-- You will find all your basic information about git in this repository.
+- The short answer is "Yes". We need a source control system to store our's documents, code, store procedures etc. On the other hand, we should be able to see historical changes.
   
 ## What does git do?
 
@@ -26,6 +26,7 @@ First of all, we have to understand what does git mean and why do we need it?
 
 ## Let's get started with details of how git works under the hood
 
-- [Install git for windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Install git for windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) The installation of git is straight forward and you can follow the link above
+
 - [Git Cheat Sheet](https://github.com/hayriozler/Git.CheatSheet/blob/master/CheatSheet.md)
   
