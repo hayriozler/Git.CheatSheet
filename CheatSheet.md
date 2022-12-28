@@ -19,9 +19,9 @@
 |config | git config --global user.name "username" | You need to configure your username and email. The configuration can be done globally or only for specific reporsitory|
 |config | - git config --global user.email "youremail@yourdomain.com" ||
 |init   | git init  | Initalize a new git repository in the current folder. It creates a .git folder which is hidden by default. **Please do not touch or change manually in this folder.** |
-| Add files to the repository  | git add file1.txt file2.txt or git add .  | You can specify a file that you want to add in the staging area. |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| Add files to the repository  | git add file1.txt file2.txt or git add .  | You can specify the file name(s) or just "." that you want to add in the staging area. If you use the git add. it will recursively add all files in the repository, but you may not want to add all files in your repository therefore you need to create a special file to ignore them. **Git is not automatically tracked the file added to the directory. You should explicitly tell the git to keep track of them** |
+| Status  | git status  | Show the current repository status  |
+| Log  |  git log or git log --grep="Keyword" or git log -n  |  Show all logs in the current branch|
+| Commit  | git commit -m "message"  | The current snapshot will be written permanently in the repository. **Commit message is also important for a later stage to understand what is changed.**  |
 |   |   |   |
 |   |   |   |
