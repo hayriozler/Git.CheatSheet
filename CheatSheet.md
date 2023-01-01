@@ -28,12 +28,27 @@
 | Differences |  git diff "old commit Id" "new commit Id" | You can see the differences between commits. |
 | Show  | git show "commit Id"  | Shows us all changes that were made in this commit. |
 | Branch  | git branch  | Shows a list of branches in the repository  |
-| Branch  | git branch -r | Shows a list of branches from remote stream if you have it.|
+| Branch  | git branch -r | Shows a list of branches from remote stream **if you have remote repository.**|
 | - New   |  git branch "branch_name" | Creates a new branch named "branch_name" |
 | - Checkout | git branch -b  "branch_name"  | Swichtes between your branches  |
 |  - Delete | git branch -d "branch_name"    | Delete branche.  |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| Reset  | git reset  | Reset means that; moves HEAD pointer to specified state. There are many types of reset in the git but I want to give you an information about only 3 of them.|
+|  - Soft | git reset --soft commit_id  | Does not change anything in the the staging area or working tree, it will only change to to be commit stage. |
+|  - Hard | git reset --hard  commit_id | Resets to staging area but not your working directory  |
+|  - Mixed | git reset --mixed  commit_id |  Resets to staging area and working directory |
+| Stash  | git stash  | When you want to temporarily save the current state of the working directory and staging area. |
+| - List  | git stash list  | List of stash entries that you currently have.  |
+| - Show  | git stash show  |  Show the changes recorded in the stash. |
+| - Delete  | git stash drop "stash" | Delete the stash  |
+| Rebase  |   |  Rebase is the process of combining a sequence of commits to the new base commits. Rebase helps us to keep clean history of repository. Rebase is usefull when you use feature branching workflow. |
+| Tags  | git tag "tagname"  | Tags are references that specific point in the git history. That can be usefull when you have a new release. |
+|  - List  | git tag  | it lists all tags you have in the repository |
+|  - Checkout  | git checkout  |   |
+|  - Push  | git push origin "tagname" | it pushes to a tag has been created previously in the repository  |
+|  - Delete | git tag -d "tagname"  | it deletes the tag from the current repository.  |
+
+## You can find more information on all commands and their detailed usage below web pages and youtube channels
+
+- [Git official page](https://git-scm.com/docs)
+- [Free code camp](https://www.youtube.com/watch?v=RGOj5yH7evk)
+- [Oh my git](https://ohmygit.org/)
