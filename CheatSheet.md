@@ -43,7 +43,7 @@
 | Rebase  |   |  Rebase is the process of combining a sequence of commits to the new base commits. Rebase helps us to keep clean history of repository. Rebase is usefull when you use feature branching workflow. |
 | Tags  | git tag "tagname"  | Tags are references that specific point in the git history. That can be usefull when you have a new release. |
 |  - List  | git tag  | it lists all tags you have in the repository |
-|  - Checkout  | git checkout  |   |
+|  - Checkout  | git checkout  | checkout the tags. This puts the repository in the deatached HEAD state.  |
 |  - Push  | git push origin "tagname" | it pushes to a tag has been created previously in the repository  |
 |  - Delete | git tag -d "tagname"  | it deletes the tag from the current repository.  |
 
